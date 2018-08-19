@@ -1,5 +1,5 @@
 # Export VSTS Wiki to PDF
-Surprisingly VSTS Wiki does not support exporting the Wiki to PDF. This is a serious pain ... especially if you want to share the Wiki across your organisation. To solve part of this problem, this repo will convert your whole wiki to PDF.
+Surprisingly Microsoft Visual Studio Team Services (VSTS) Wiki does not support exporting the Wiki to PDF. This is a serious pain ... especially if you want to share the Wiki across your organisation. To solve part of this problem, this repo will convert your whole wiki to PDF.
 
 ## Setup Instructions
 This script is work in progress. To get started, clone the VSTS Wiki to your preferred location on your computer. Copy the script to the root of the wiki and execute the script:
@@ -7,7 +7,8 @@ This script is work in progress. To get started, clone the VSTS Wiki to your pre
 > bash clean-convert.sh
 
 ## Licence
-``MIT License
+```
+MIT License
 
 Copyright (c) 2018 Mr Modise
 
@@ -28,4 +29,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-``
+```
